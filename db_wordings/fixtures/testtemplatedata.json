@@ -1,0 +1,28 @@
+[
+    {
+        "pk": "1",
+        "model": "wordings.templatewording",
+        "fields": {
+            "text": "{{ USER_LANGUAGE }}",
+            "identifier": "expn:site_template::test:user_language"
+        }
+    },
+    {
+        "pk": "1",
+        "model": "wordings.textwording",
+        "fields": {
+            "language": "de",
+            "text": "XX",
+            "identifier": "expn:site_wording::test:user_language"
+        }
+    },
+    {
+        "pk": "1",
+        "model": "wordings.sensitiveobjectwording",
+        "fields": {
+            "language": "de",
+            "text": "xxx",
+            "identifier": "expn:object_wording:sensitive::test:user_language"
+        }
+    }
+]
